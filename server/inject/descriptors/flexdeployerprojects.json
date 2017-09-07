@@ -39,5 +39,14 @@
       "selectContains": "Flex Deployer > Projects"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isProjects"
+      ],
+      "screens": [
+        "flexdeployerprojects"
+      ]
+    }
+  ]
 }
