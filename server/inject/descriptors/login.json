@@ -3,9 +3,9 @@
   "comment": "Login",
   "properties": {
     "isLogin": {
-      "type": "identifier",
+      "type": "string",
       "selector": "body",
-      "control": "exists"
+      "control": "property.innerHTML"
     }
   },
   "connect": [
