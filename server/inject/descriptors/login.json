@@ -39,6 +39,11 @@
           "type": "string"
         }
       }
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "html",
+      "control": "exists"
     }
   },
   "connect": []
