@@ -1,13 +1,7 @@
 {
   "type": "object",
   "comment": "Login",
-  "properties": {
-    "isLogin": {
-      "type": "string",
-      "selector": "body",
-      "control": "property.innerHTML"
-    }
-  },
+  "properties": {},
   "connect": [
     {
       "match": [
