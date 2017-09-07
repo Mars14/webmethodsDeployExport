@@ -24,5 +24,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.flexdeployerprojects', {
+        views: {
+            app: {
+                controller: 'app_flexdeployerprojects',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.flexdeployerprojects');
+                }
+            }
+        }
     });
 });
