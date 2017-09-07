@@ -34,8 +34,8 @@
     },
     "isProjects": {
       "type": "identifier",
-      "selector": "#text",
-      "control": "action.link",
+      "selector": "div.FlexDeployer",
+      "control": "exists",
       "selectContains": "Flex Deployer > Projects"
     }
   },
