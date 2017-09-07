@@ -37,6 +37,11 @@
       "selector": "div.FlexDeployer",
       "control": "exists",
       "selectContains": "Flex Deployer > Projects"
+    },
+    "filter": {
+      "type": "string",
+      "control": "property.innerText",
+      "selector": ".table-filter"
     }
   },
   "connect": [
