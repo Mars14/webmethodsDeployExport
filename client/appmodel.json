@@ -82,5 +82,31 @@
         "parameters": {}
       }
     }
+  },
+  "builds": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "logOff": {
+        "type": "action"
+      },
+      "buildsList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "export": {
+              "type": "action"
+            }
+          }
+        }
+      }
+    }
   }
 }
