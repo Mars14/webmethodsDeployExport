@@ -39,7 +39,7 @@
     },
     "filter": {
       "type": "string",
-      "control": "text",
+      "control": "property.innerText",
       "selector": ".table-filter"
     }
   },
