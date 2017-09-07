@@ -1,10 +1,12 @@
-[
-    {
-        "name":"test01",
-        "description":"jajajaja"
-    },
-    {
-        "name":"test01",
-        "description":"jajajaja"
-    }
-]
+{
+    "buildsList" : [
+        {
+            "name":"test01",
+            "description":"jajajaja"
+        },
+        {
+            "name":"test01",
+            "description":"jajajaja"
+        }
+    ]
+}
