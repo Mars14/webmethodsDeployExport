@@ -38,7 +38,7 @@
     },
     "filter": {
       "type": "string",
-      "control": "m",
+      "control": "myInnerText",
       "selector": ".table-filter"
     }
   },
