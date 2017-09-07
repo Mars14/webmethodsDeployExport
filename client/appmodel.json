@@ -19,6 +19,9 @@
             },
             "icon": {
               "type": "string"
+            },
+            "filter": {
+              "type": "string"
             }
           }
         },
