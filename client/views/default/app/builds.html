@@ -20,8 +20,10 @@
                 <div class="col" data-comp-id="column.2">
                     <div data-comp-id="text.4" ng-bind="item.description">Description</div>
                 </div>
-                <div class="col col-25" data-comp-id="column.3">
-                    <i class="icon ion-android-download" data-comp-id="icon.1"></i>
+                <div class="col text-center col-20" data-comp-id="column.3"
+                    ng-click="app.action('builds', 'buildsList[item].export', this)">
+                    <i class="icon ion-android-download" data-comp-id="icon.1"
+                        style="font-size: 45px;"></i>
                 </div>
             </div>
         </div>
