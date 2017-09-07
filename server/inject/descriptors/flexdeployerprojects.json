@@ -18,7 +18,6 @@
           "action": {
             "type": "action",
             "selector": "td",
-            "selectIndex": 1,
             "control": "action.link"
           },
           "icon": {
