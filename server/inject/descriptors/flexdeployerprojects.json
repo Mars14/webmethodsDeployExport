@@ -31,6 +31,12 @@
         "type": "none"
       },
       "selectorAll": "tr[style]"
+    },
+    "isProjects": {
+      "type": "identifier",
+      "selector": "#text",
+      "control": "action.link",
+      "selectContains": "Flex Deployer > Projects"
     }
   },
   "connect": []
