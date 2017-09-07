@@ -19,15 +19,15 @@
             },
             "icon": {
               "type": "string"
-            },
-            "filter": {
-              "type": "string"
             }
           }
         },
         "update": {
           "type": "none"
         }
+      },
+      "filter": {
+        "type": "string"
       }
     }
   }
