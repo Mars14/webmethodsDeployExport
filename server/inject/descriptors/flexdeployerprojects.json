@@ -39,8 +39,11 @@
     },
     "filter": {
       "type": "string",
-      "control": "property.innerText",
-      "selector": ".table-filter"
+      "control": {
+        "fn": "",
+        "control": "property.innerText"
+      },
+      "selector": "<pseudo:before>"
     }
   },
   "connect": [
