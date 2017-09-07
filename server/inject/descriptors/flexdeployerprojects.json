@@ -40,7 +40,7 @@
     "filter": {
       "type": "string",
       "control": "property.innerText",
-      "selector": "<pseudo:before>"
+      "selector": ".table-filter"
     }
   },
   "connect": [
