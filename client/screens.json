@@ -33,7 +33,8 @@
       "id": "builds",
       "name": "Builds",
       "sourceScreenId": "app.menu",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "builds"
     }
   ],
   "sourceAppId": "_blank",

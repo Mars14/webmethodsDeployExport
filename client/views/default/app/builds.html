@@ -6,21 +6,21 @@
     </ion-header-bar>
     <ion-content class="has-header" data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
-            <div class="item" data-comp-id="item.2" ng-click="app.logout()">
-                <div data-comp-id="text.3">
+            <div class="item" data-comp-id="item.1" ng-click="app.logout()">
+                <div data-comp-id="text.2">
                     Logout
                 </div>
             </div>
         </ion-list>
-        <div class=" card" data-comp-id="div.1">
+        <div class=" card" data-comp-id="div.1" ng-repeat="item in data.buildsList">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.2">name</div>
+                    <div data-comp-id="text.3">name</div>
                 </div>
-                <div class="col" data-comp-id="column.3">
+                <div class="col" data-comp-id="column.2">
                     <div data-comp-id="text.4">Description</div>
                 </div>
-                <div class="col col-25" data-comp-id="column.2">
+                <div class="col col-25" data-comp-id="column.3">
                     <i class="icon ion-android-download" data-comp-id="icon.1"></i>
                 </div>
             </div>
