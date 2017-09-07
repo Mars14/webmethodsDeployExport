@@ -17,7 +17,7 @@
           },
           "action": {
             "type": "action",
-            "selector": "td",
+            "selector": ".table-filter",
             "control": "action.link"
           },
           "icon": {
@@ -38,7 +38,7 @@
     },
     "filter": {
       "type": "string",
-      "control": "property.innerText",
+      "control": "m",
       "selector": ".table-filter"
     }
   },
