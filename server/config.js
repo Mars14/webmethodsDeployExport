@@ -1,12 +1,9 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-<<<<<<< HEAD
     startURL: 'about:blank',
     loginURL: 'http://wmams1-lx.hkd.flextronics.com:4444/Flex_Deployer/project-list.dsp',
-=======
-    startURL: 'https://www.google.com',
->>>>>>> 3dc628b371aa35c497c4ed2cc3a9f316ef114163
+
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
