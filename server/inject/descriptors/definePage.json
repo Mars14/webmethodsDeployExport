@@ -3,8 +3,9 @@
   "properties": {
     "isdefine": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "selector": ".menusection.FlexDeployer",
+      "control": "exists",
+      "frameSelector": "Flex Deployer > Projects"
     }
   },
   "connect": []
