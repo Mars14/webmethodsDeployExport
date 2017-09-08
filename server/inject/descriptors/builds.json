@@ -35,7 +35,7 @@
       "frameSelector": [
         null
       ],
-      "selectorAll": "table"
+      "selectorAll": "tr"
     }
   },
   "connect": []
