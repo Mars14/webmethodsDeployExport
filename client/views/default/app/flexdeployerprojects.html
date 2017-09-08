@@ -9,18 +9,28 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <label class="item item-input" data-comp-id="textInput.1">
-            <span class="input-label">Search</span>
-            <input ng-model="data.filter" powwow-change="{dynamic:false}" type="text">
-        </label>
+        <div class="row" data-comp-id="row.1">
+            <div class="col" data-comp-id="column.1">
+                <label class="item item-input energized-border" data-comp-id="textInput.1"
+                    style="border-radius: 5px;">
+                    <span class="input-label"></span>
+                    <input ng-model="data.filter" placeholder="Search" type="text">
+                </label>
+            </div>
+            <div class="col text-center col-20" data-comp-id="column.2">
+                <button class="button ion-ios-search-strong button-square button-shadowed"
+                    data-comp-id="button.3" ng-click="app.call('projectlist.updatesearch',data)"
+                    style=""></button>
+            </div>
+        </div>
         <div class=" card" data-comp-id="div.1"
             ng-click="app.action('flexdeployerprojects', 'listItems[item].action', this)"
             ng-repeat="item in data.listItems">
-            <div class="row" data-comp-id="row.1">
-                <div class="col col-10" data-comp-id="column.1">
+            <div class="row" data-comp-id="row.2">
+                <div class="col col-10" data-comp-id="column.3">
                     <i class="icon ion-android-arrow-forward" data-comp-id="icon.1"></i>
                 </div>
-                <div class="col" data-comp-id="column.2">
+                <div class="col" data-comp-id="column.4">
                     <div data-comp-id="text.1" ng-bind="item.string">Some text</div>
                 </div>
             </div>
