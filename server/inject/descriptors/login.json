@@ -4,7 +4,7 @@
   "properties": {
     "isLogin": {
       "type": "identifier",
-      "selector": ".filterable.selectable.pageable",
+      "selector": "body",
       "control": "exists"
     }
   },
