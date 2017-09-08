@@ -44,7 +44,10 @@
     "isBuild": {
       "type": "identifier",
       "control": "exists",
-      "frameSelector": "[name=\"treeFrame\"]",
+      "frameSelector": [
+        "[name=\"body\"]",
+        "[name=\"treeFrame\"]"
+      ],
       "selector": ".menusection",
       "selectContains": "> Builds"
     }
