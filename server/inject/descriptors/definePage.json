@@ -22,5 +22,12 @@
       ]
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isdefine"
+      ],
+      "action": "viewBuildsClick"
+    }
+  ]
 }
