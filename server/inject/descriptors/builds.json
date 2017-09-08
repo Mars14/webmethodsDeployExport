@@ -29,7 +29,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "tr[style]"
     }
   },
   "connect": []
