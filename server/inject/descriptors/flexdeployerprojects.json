@@ -39,7 +39,8 @@
     "filter": {
       "type": "string",
       "control": "myInnerText",
-      "selector": ".table-filter"
+      "selector": ".table-filter",
+      "frameSelector": "[name=treeFrame]"
     }
   },
   "connect": [
