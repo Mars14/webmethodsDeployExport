@@ -14,7 +14,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "control": "property.innerText"
           },
           "description": {
             "type": "string",
