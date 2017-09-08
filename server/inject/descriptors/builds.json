@@ -55,5 +55,14 @@
       "selectContains": "> Builds"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isBuild"
+      ],
+      "screens": [
+        "builds"
+      ]
+    }
+  ]
 }
