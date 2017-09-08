@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": ".note",
       "control": "exists",
-      "frameSelector": "**Locking is disabled."
+      "selectContains": "**Locking is disabled."
     }
   },
   "connect": []
