@@ -6,7 +6,10 @@
       "selector": ".menusection",
       "control": "exists",
       "selectContains": "> Properties",
-      "frameSelector": "[name=propertyFrame]"
+      "frameSelector": [
+        "[name=contentframe]",
+        "[name=propertyFrame]"
+      ]
     },
     "viewBuildsClick": {
       "type": "action",
