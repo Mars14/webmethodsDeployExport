@@ -32,7 +32,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "table tr"
+      "selectorAll": "tbody tr"
     }
   },
   "connect": []
