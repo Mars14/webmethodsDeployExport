@@ -17,7 +17,7 @@
           },
           "action": {
             "type": "action",
-            "selector": ".table-filter",
+            "selector": "td:nth-of-type(1) a",
             "control": "action.link"
           },
           "icon": {

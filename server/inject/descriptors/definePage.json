@@ -9,7 +9,7 @@
     },
     "viewBuildsClick": {
       "type": "action",
-      "selector": "#release-list",
+      "selector": "a",
       "control": "action.link",
       "selectContains": "Build"
     }
