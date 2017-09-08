@@ -9,6 +9,8 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
+        <button class="button button-block" data-comp-id="button.3"
+            ng-click="app.call('projectlist.updatesearch', filter)">Search</button>
         <label class="item item-input" data-comp-id="textInput.1">
             <span class="input-label">Search</span>
             <input ng-model="data.filter" powwow-change="{dynamic:false}" type="text">
