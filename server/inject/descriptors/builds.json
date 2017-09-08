@@ -39,7 +39,7 @@
         "type": "none"
       },
       "frameSelector": "[name=treeFrame]",
-      "selectorAll": "td i"
+      "selectorAll": "tbody tr"
     },
     "isBuild": {
       "type": "identifier",
