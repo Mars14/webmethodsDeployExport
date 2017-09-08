@@ -6,6 +6,12 @@
       "selector": ".note",
       "control": "exists",
       "selectContains": "**Locking is disabled."
+    },
+    "viewBuildsClick": {
+      "type": "action",
+      "selector": "#release-list",
+      "control": "property.innerText",
+      "selectContains": "Build"
     }
   },
   "connect": []
