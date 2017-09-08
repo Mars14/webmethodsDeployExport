@@ -16,7 +16,10 @@
       "selector": "a",
       "control": "action.link",
       "selectContains": "Build",
-      "frameSelector": "[name=propertyFrame]"
+      "frameSelector": [
+        "[name=body]",
+        "[name=propertyFrame]"
+      ]
     }
   },
   "connect": []
