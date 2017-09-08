@@ -11,8 +11,8 @@
     <ion-content data-comp-id="ionic-content.1">
         <label class="item item-input" data-comp-id="textInput.1">
             <span class="input-label">Search</span>
-            <input ng-change="app.call('updatesearch.update',data)" ng-model="data.filter"
-                type="text">
+            <input ng-change="app.call('projectlist.updatesearch',data)"
+                ng-model="data.filter" type="text">
         </label>
         <div class=" card" data-comp-id="div.1"
             ng-click="app.action('flexdeployerprojects', 'listItems[item].action', this)"
