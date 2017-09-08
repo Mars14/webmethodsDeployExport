@@ -38,7 +38,10 @@
       "update": {
         "type": "none"
       },
-      "frameSelector": "[name=treeFrame]",
+      "frameSelector": [
+        "[name=body]",
+        "[name=treeFrame]"
+      ],
       "selectorAll": "tbody tr"
     },
     "isBuild": {
