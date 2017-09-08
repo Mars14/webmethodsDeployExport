@@ -1,6 +1,6 @@
 powwow.controls.myInnerText = {
     set: function (scopedoc, input, value, events) {
-        return new Promise(function (resolve) {
+        return new powwow.Promise(function (resolve) {
             var newValue = (value === undefined) ? '' : value;
             if (input.innerText !== newValue) {
                 input.innerText = newValue;
@@ -12,7 +12,6 @@ powwow.controls.myInnerText = {
             } else if (events) {
                 //powwow._fireEvents(input, scopedoc, events, resolve);
                 powwow.keyupEvent(input, scopedoc);
-                
             } else {    
                 resolve();
             }
