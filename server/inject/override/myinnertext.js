@@ -4,12 +4,15 @@ powwow.controls.myInnerText = {
             var newValue = (value === undefined) ? '' : value;
             if (input.innerText !== newValue) {
                 input.innerText = newValue;
-                if (!events) {
+                //if (!events) {
                     events = "keyupEvent";
-                }
-                powwow._fireEvents(input, scopedoc, events, resolve);
+                //}
+                //powwow._fireEvents(input, scopedoc, events, resolve);
+                powwow.keyupEvent(input, scopedoc);
             } else if (events) {
-                powwow._fireEvents(input, scopedoc, events, resolve);
+                //powwow._fireEvents(input, scopedoc, events, resolve);
+                powwow.keyupEvent(input, scopedoc);
+                
             } else {
                 resolve();
             }
