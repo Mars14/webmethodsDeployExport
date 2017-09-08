@@ -8,7 +8,6 @@
       "selectContains": "> Properties",
       "frameSelector": [
         "[name=contentframe]",
-        "[name=treeFrame]",
         "[name=propertyFrame]"
       ]
     },
