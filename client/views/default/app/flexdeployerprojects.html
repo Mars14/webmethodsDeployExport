@@ -9,11 +9,19 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <label class="item item-input" data-comp-id="textInput.1">
-            <span class="input-label">Search</span>
-            <input ng-change="app.call('projectlist.updatesearch',data)"
-                ng-model="data.filter" type="text">
-        </label>
+        <div class="row" data-comp-id="row.2">
+            <div class="col" data-comp-id="column.3">
+                <label class="item item-input" data-comp-id="textInput.1">
+                    <span class="input-label">Search</span>
+                    <input ng-model="data.filter" type="text">
+                </label>
+            </div>
+            <div class="col text-center col-20" data-comp-id="column.4">
+                <button class="button ion-ios-search-strong button-small button-clear"
+                    data-comp-id="button.3" ng-click="app.call('projectlist.updatesearch',data)"
+                    style="font-size: 30px;"></button>
+            </div>
+        </div>
         <div class=" card" data-comp-id="div.1"
             ng-click="app.action('flexdeployerprojects', 'listItems[item].action', this)"
             ng-repeat="item in data.listItems">
