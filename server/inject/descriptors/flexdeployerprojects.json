@@ -34,7 +34,8 @@
       "type": "identifier",
       "selector": "div.FlexDeployer",
       "control": "exists",
-      "selectContains": "Flex Deployer > Projects"
+      "selectContains": "Flex Deployer > Projects",
+      "frameSelector": "[name=treeFrame]"
     },
     "filter": {
       "type": "string",
