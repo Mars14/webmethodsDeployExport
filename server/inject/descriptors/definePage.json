@@ -3,7 +3,7 @@
   "properties": {
     "isdefine": {
       "type": "identifier",
-      "selector": ".menusection",
+      "selector": "body > div > div.menusection",
       "control": "exists",
       "selectContains": "> Properties",
       "frameSelector": [
