@@ -28,7 +28,11 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "tr[style]"
+      "selectorAll": "tr[style]",
+      "frameSelector": [
+        "[name=body]",
+        "[name=treeFrame]"
+      ]
     },
     "isProjects": {
       "type": "identifier",
