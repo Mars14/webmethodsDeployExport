@@ -15,7 +15,6 @@
             "update": {
               "type": "none"
             },
-            "selector": "td a",
             "control": "property.innerText"
           },
           "description": {
