@@ -28,7 +28,8 @@
             "control": "property.innerText"
           },
           "export": {
-            "type": "action"
+            "type": "action",
+            "selector": "td"
           }
         }
       },
