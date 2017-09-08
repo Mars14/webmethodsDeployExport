@@ -8,6 +8,7 @@
       "selectContains": "> Properties",
       "frameSelector": [
         "[name=contentframe]",
+        "[name=treeFrame]",
         "[name=propertyFrame]"
       ]
     },
@@ -19,12 +20,5 @@
       "frameSelector": "[name=propertyFrame]"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isdefine"
-      ],
-      "action": "viewBuildsClick"
-    }
-  ]
+  "connect": []
 }
