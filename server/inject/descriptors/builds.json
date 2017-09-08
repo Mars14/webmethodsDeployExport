@@ -30,7 +30,7 @@
           "export": {
             "type": "action",
             "selector": "td i",
-            "selectIndex": 6,
+            "selectIndex": 4,
             "control": "attrib.onclick"
           }
         }
