@@ -3,9 +3,9 @@
   "properties": {
     "isdefine": {
       "type": "identifier",
-      "selector": ".menusection.FlexDeployer",
+      "selector": ".note",
       "control": "exists",
-      "frameSelector": "Flex Deployer > Projects"
+      "frameSelector": "**Locking is disabled."
     }
   },
   "connect": []
