@@ -12,7 +12,8 @@
       "type": "action",
       "selector": "a",
       "control": "action.link",
-      "selectContains": "Build"
+      "selectContains": "Build",
+      "frameSelector": "[name=propertyFrame]"
     }
   },
   "connect": [
