@@ -16,7 +16,7 @@
               "type": "none"
             },
             "control": "property.innerText",
-            "selector": "td a"
+            "selector": "td"
           },
           "description": {
             "type": "string",
