@@ -1,6 +1,6 @@
 [
-  "flexdeployerprojects.json",
-  "definePage.json",
   "builds.json",
+  "definePage.json",
+  "flexdeployerprojects.json",
   "login.json"
 ]
