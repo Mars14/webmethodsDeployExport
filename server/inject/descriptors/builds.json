@@ -37,6 +37,13 @@
       },
       "frameSelector": "[name=treeFrame]",
       "selectorAll": "tbody tr"
+    },
+    "isBuild": {
+      "type": "identifier",
+      "control": "exists",
+      "frameSelector": "[name=\"treeFrame\"]",
+      "selector": ".menusection",
+      "selectContains": "> Builds"
     }
   },
   "connect": []
