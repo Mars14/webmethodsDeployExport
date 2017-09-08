@@ -7,7 +7,7 @@
       "control": "exists",
       "selectContains": "> Properties",
       "frameSelector": [
-        "[name=contentframe]",
+        "[name=body]",
         "[name=propertyFrame]"
       ]
     },
