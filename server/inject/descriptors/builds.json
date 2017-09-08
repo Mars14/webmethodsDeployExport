@@ -29,7 +29,7 @@
           },
           "export": {
             "type": "action",
-            "selector": "td",
+            "selector": "td i",
             "selectIndex": 6,
             "control": "attrib.onclick"
           }
