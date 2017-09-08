@@ -14,5 +14,12 @@
       "selectContains": "Build"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isdefine"
+      ],
+      "action": "viewBuildsClick"
+    }
+  ]
 }
