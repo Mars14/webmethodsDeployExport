@@ -35,7 +35,7 @@
       "frameSelector": [
         null
       ],
-      "selectorAll": "tbody.tr"
+      "selectorAll": "tbody tr"
     }
   },
   "connect": []
