@@ -29,7 +29,9 @@
           },
           "export": {
             "type": "action",
-            "selector": "td"
+            "selector": "td",
+            "selectIndex": 6,
+            "control": "attrib.onclick"
           }
         }
       },
@@ -37,7 +39,7 @@
         "type": "none"
       },
       "frameSelector": "[name=treeFrame]",
-      "selectorAll": "tbody tr"
+      "selectorAll": "td i"
     },
     "isBuild": {
       "type": "identifier",
