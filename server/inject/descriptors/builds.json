@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "logOff": {
+      "type": "action"
+    },
+    "buildsList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "description": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "export": {
+            "type": "action"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}
