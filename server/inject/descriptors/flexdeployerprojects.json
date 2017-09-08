@@ -45,6 +45,7 @@
   "connect": [
     {
       "match": [
+        "isProjects",
         "isProjects"
       ],
       "screens": [
