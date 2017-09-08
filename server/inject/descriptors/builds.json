@@ -31,7 +31,7 @@
             "type": "action",
             "selector": "td i",
             "selectIndex": 4,
-            "control": "attrib.onclick"
+            "control": "action.link"
           }
         }
       },
