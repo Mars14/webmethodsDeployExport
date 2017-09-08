@@ -32,10 +32,10 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "tbody tr",
       "frameSelector": [
         null
-      ]
+      ],
+      "selectorAll": "table"
     }
   },
   "connect": []
