@@ -3,15 +3,17 @@
   "properties": {
     "isdefine": {
       "type": "identifier",
-      "selector": ".note",
+      "selector": ".menusection",
       "control": "exists",
-      "selectContains": "**Locking is disabled."
+      "selectContains": "> Properties",
+      "frameSelector": "[name=propertyFrame]"
     },
     "viewBuildsClick": {
       "type": "action",
       "selector": "a",
       "control": "action.link",
-      "selectContains": "Build"
+      "selectContains": "Build",
+      "frameSelector": "[name=propertyFrame]"
     }
   },
   "connect": [
