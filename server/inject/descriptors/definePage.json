@@ -10,7 +10,7 @@
     "viewBuildsClick": {
       "type": "action",
       "selector": "#release-list",
-      "control": "property.innerText",
+      "control": "action.link",
       "selectContains": "Build"
     }
   },
