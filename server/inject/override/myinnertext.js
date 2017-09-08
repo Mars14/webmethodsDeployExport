@@ -13,7 +13,7 @@ powwow.controls.myInnerText = {
                 //powwow._fireEvents(input, scopedoc, events, resolve);
                 powwow.keyupEvent(input, scopedoc);
                 
-            } else {
+            } else {    
                 resolve();
             }
         });
